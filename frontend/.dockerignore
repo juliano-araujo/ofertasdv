@@ -1,0 +1,25 @@
+# Ignore local dev artifacts to avoid Windows tar mode errors and reduce context size
+node_modules
+.pnpm-store
+.next
+out
+dist
+
+# VCS
+.git
+.gitignore
+
+# Env files
+.env
+.env.*
+
+# Editor/OS
+.vscode
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
